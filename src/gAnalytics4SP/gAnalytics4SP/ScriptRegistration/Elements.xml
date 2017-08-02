@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="GAnalytics4SP.Script.Link" 
+                Location="ScriptLink"
+                Sequence="202"
+                ScriptSrc="~sitecollection/SiteAssets/GAnalytics4SP/analytics.js" />
+</Elements>
