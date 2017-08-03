@@ -68,6 +68,9 @@
     <None Include="ScriptRegistration\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{10e80ee5-1002-44d7-b8af-1b1f21a87daf}</SharePointProjectItemId>
     </None>
+    <None Include="SettingsLink\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1bf89a2a-1912-4acb-bce3-6f1a9cc53274}</SharePointProjectItemId>
+    </None>
     <None Include="SiteAssets\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{89819574-507c-474e-9412-eaf29d251d39}</SharePointProjectItemId>
     </None>
@@ -77,9 +80,16 @@
     <Content Include="Features\GAnalytics\GAnalytics.Template.xml">
       <DependentUpon>GAnalytics.feature</DependentUpon>
     </Content>
-    <Content Include="ScriptRegistration\Elements.xml" />
-    <Content Include="SiteAssets\analytics.js" />
-    <Content Include="SiteAssets\Elements.xml" />
+    <Content Include="ScriptRegistration\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SettingsLink\Elements.xml" />
+    <Content Include="SiteAssets\GAnalytics4SP\analytics.js" />
+    <Content Include="SiteAssets\GAnalytics4SP\AnalyticsSettings.aspx" />
+    <Content Include="SiteAssets\GAnalytics4SP\AnalyticsSettings.js" />
+    <Content Include="SiteAssets\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

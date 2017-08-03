@@ -2,6 +2,8 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="SiteAssets\" Type="ElementManifest" />
-    <ProjectItemFile Source="analytics.js" Target="SiteAssets\" Type="ElementFile" />
+    <ProjectItemFile Source="GAnalytics4SP\analytics.js" Target="SiteAssets\GAnalytics4SP\" Type="ElementFile" />
+    <ProjectItemFile Source="GAnalytics4SP\AnalyticsSettings.js" Target="SiteAssets\GAnalytics4SP\" Type="ElementFile" />
+    <ProjectItemFile Source="GAnalytics4SP\AnalyticsSettings.aspx" Target="SiteAssets\GAnalytics4SP\" Type="ElementFile" />
   </Files>
 </ProjectItem>

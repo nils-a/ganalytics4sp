@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- see https://msdn.microsoft.com/en-us/library/office/bb802730.aspx for some IDs -->
+  <!-- Manage Shop-Settings link in SiteSettings -->
+  <CustomAction Id="GAnalytics4SP.Settings.Link"
+    Location="Microsoft.SharePoint.SiteSettings"
+    GroupId="SiteCollectionAdmin"
+    Rights="ManageWeb"
+    Sequence="501"
+    Title="Google Analytics">
+    <UrlAction Url="~sitecollection/SiteAssets/GAnalytics4SP/AnalyticsSettings.aspx" />
+  </CustomAction>
+</Elements>

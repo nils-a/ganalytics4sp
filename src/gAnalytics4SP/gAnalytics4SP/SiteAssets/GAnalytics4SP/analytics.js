@@ -14,10 +14,10 @@
     }
     analytics.loadWebSettings = function () {
         var ctx = SP.ClientContext.get_current(),
-            properties = ctx.get_web().get_allProperties();
+            properties = ctx.get_site().get_rootWeb().get_allProperties();
         ctx.load(properties);
         ctx.executeQueryAsync(function () { 
-            analytics.trackingId = properties.get_fieldValues()['ganalytics4sp.trackingId'] || 'UA-10260720-9'; //DEBUG!!! --> false
+            analytics.trackingId = properties.get_fieldValues()['ganalytics4sp.trackingId'] || false;
             analytics.doTracking();
         }, function (err) {
             console.log && console.log(err.get_message());

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="SiteAssets" Url="SiteAssets/GAnalytics4SP">
-    <File Path="SiteAssets\analytics.js" Url="analytics.js" />
+  <Module Name="SiteAssets">
+    <File Path="SiteAssets\GAnalytics4SP\analytics.js" Url="SiteAssets/GAnalytics4SP/analytics.js" />
+    <File Path="SiteAssets\GAnalytics4SP\AnalyticsSettings.js" Url="SiteAssets/GAnalytics4SP/AnalyticsSettings.js" />
+    <File Path="SiteAssets\GAnalytics4SP\AnalyticsSettings.aspx" Url="SiteAssets/GAnalytics4SP/AnalyticsSettings.aspx" />
   </Module>
 </Elements>
