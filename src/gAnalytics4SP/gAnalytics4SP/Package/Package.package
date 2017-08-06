@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7902e0c7-c492-43cc-9db2-69c0272d9b01" solutionId="7902e0c7-c492-43cc-9db2-69c0272d9b01" resetWebServer="false" sharePointProductVersion="16.0" name="gAnalytics4SP" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7902e0c7-c492-43cc-9db2-69c0272d9b01" solutionId="7902e0c7-c492-43cc-9db2-69c0272d9b01" resetWebServer="false" title="Google Analytics for SharePoint" name="gAnalytics4SP" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
     <featureReference itemId="04190956-248c-41ad-8cd2-c8c6ed50575b" />
   </features>
